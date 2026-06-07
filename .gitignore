@@ -1,0 +1,11 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000000000000000000000000000000000000..0ca11cc87ca1dfa902659ef2c0d403a77aa98736
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,5 @@
++node_modules/
++dist/
++*.tsbuildinfo
++.DS_Store
++proofpilot-screenshot.png
