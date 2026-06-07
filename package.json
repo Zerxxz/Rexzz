@@ -1,0 +1,13 @@
+{
+  "name": "proofpilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node scripts/copy-assets.mjs && node scripts/verify-build.mjs",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
+    "typecheck": "tsc --noEmit"
+  }
+}
